@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Pancakes</h1>
+    <p id="description">What's your favorite type of pancake?</p>
+    <form id="survey-form">
+       <label id="name-label" for="name">Name</label>
+       <input type="text" id="name" placeholder="enter your name" required />
+       <label id="email-label" for="email">Email</label>
+       <input type="email" id="email" placeholder="pamela@gmail.com" required />
+       <label id="number-label" for="number">Number</label>
+       <input type="number" id="number" min="0" max="100"  placeholder="20"/>
+       <select name="contact-type" id="dropdown">
+         <option value="Version">Light Version</option>
+         <option value="Version">Regular</option>
+       </select>
+       <br />
+       <input type="radio" id="radio" name="radio" value="HTML">
+       <label id="radio-label" for="radio">chocolat</radio>
+       <input type="radio" id="radio" name="radio" value="HTML">
+       <label id="radio-label" for="radio">vanilla</radio>
+      <br />
+      <input type="checkbox" id="breakfast1" name="breakfast1" value="Cookies">
+      <label for="breakfast1">I like Vanilla Pancakes</label><br>
+      <input type="checkbox" id="breakfast2" name="breakfast2" value="Fruits">
+      <label for="breakfast2">I like Choco Pancakes</label><br>
+      <input type="checkbox" id="breakfast3" name="breakfast3" value="Sweet Bread">
+      <label for="breakfast3">I like Blueberry Pancakes</label><br>
+      <br />
+      <label for="w3review">Share with us your favorite receipt:</label>
+      
+      <textarea id="Submit Receipt" name="Submit Receipt" rows="4" cols="50">
+       Easy Fluffly Pancakes from Scratch
+      </textarea>
+      
+      <button type="submit" id="submit" value="value">Submit</button>
+    </form>        
+</body>
+</html>
+
