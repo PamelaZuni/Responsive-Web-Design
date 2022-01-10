@@ -1,0 +1,15 @@
+#navbar {
+  
+height: 100%;    
+position: fixed; /     
+top: 0; 
+left: 0;
+font-size: 27px;
+
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: white;
+  }
+}
